@@ -7,7 +7,7 @@ $config = $container['settings']['database'];
 return [
     'paths'                => [
         'migrations' => 'database/migrations',
-        'seed'       => 'database/seed',
+        'seeds'       => 'database/seeds',
     ],
     'migration_base_class' => 'App\Database\Migrations\Migration',
     'templates'            => [
